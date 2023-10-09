@@ -30,7 +30,7 @@ public class QuizOneCodingChallenge : MonoBehaviour
     
     public void PrintPlayerName()
     {
-        PlayerName = "Drake";
+        Debug.Log(PlayerName);
     }
 
     private void DecreaseHealth()
