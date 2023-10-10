@@ -23,12 +23,12 @@ public class QuizOneCodingChallenge : MonoBehaviour
 
     }
 
-    public void IncreaseScore()
+    private void IncreaseScore()
     {
         Score = Score + 10;
     }
     
-    public void PrintPlayerName()
+    private void PrintPlayerName()
     {
         Debug.Log(PlayerName);
     }
